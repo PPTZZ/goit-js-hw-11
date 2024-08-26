@@ -1,19 +1,10 @@
-import DataFetch from './partials/DataFetch';
+import { fetchData } from './partials/data-fetch';
 
-const test = new DataFetch({
-  selector: '[name=searchQuery]',
+
+let input
+
+
+document.querySelector('.search-form').addEventListener('submit', e => {
+  e.preventDefault();
+  console.log(input);
 });
-
-const form = new DataFetch({
-    selector:'.search-form'
-});
-
-form.element.addEventListener('submit', e => {
-    e.preventDefault();
-    const input = test.element.value
-    console.log(input);
-    form
-      .fetchData(input)
-      .then(data => console.log(data))
-      .catch(err => console.log(err));
-  });
