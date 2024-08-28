@@ -93,8 +93,8 @@ a{
     border: var(--color-border) 1.5px solid;
     border-radius: 10px;
     box-shadow: 0px 2px 1px 0px #00000033;
-		box-shadow: 0px 1px 1px 0px #00000024;
-		box-shadow: 0px 1px 3px 0px #0000001f;
+	box-shadow: 0px 1px 1px 0px #00000024;
+	box-shadow: 0px 1px 3px 0px #0000001f;
     overflow: hidden;
 }
 
@@ -137,6 +137,9 @@ a{
     border: var(--color-white) 0px solid;
     background-color: var(--color-placeholder);
     border-radius: 50px;
+    box-shadow: 0px 2px 1px 0px #00000033;
+	box-shadow: 0px 1px 1px 0px #00000024;
+	box-shadow: 0px 1px 3px 0px #0000001f;
     transform: translateX(200%);
     transition: transform 0.5s ease-out, opacity 0.5s ease-out;
 }
