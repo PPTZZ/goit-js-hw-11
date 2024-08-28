@@ -1,32 +1,32 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Not-Google</title>
-    <link rel="stylesheet" href="./css/style.css" />
-    <script type="module" src="./index.js"></script>
-  </head>
 
-  <body>
-    <form class="search-form" id="search-form">
-      <div class="search-form__pos">
-        <input
-          type="text"
-          name="searchQuery"
-          autocomplete="off"
-          placeholder="Search images..."
-        />
-        <button type="submit">
-          <svg class="search">
-            <use href="./images/search.svg#icon-search"></use>
-          </svg>
-        </button>
-      </div>
-    </form>
-    <div class="gallery">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Not-Google</title>
+  <link rel="stylesheet" href="./css/style.css" />
+  <script type="module" src="./index.js"></script>
+</head>
+
+<body>
+  <form class="search-form" id="search-form">
+    <div class="search-form__pos">
+      <input type="text" name="searchQuery" autocomplete="off" placeholder="Search images..." />
+      <button type="submit">
+        <svg class="search">
+          <use href="./images/search.svg#icon-search"></use>
+        </svg>
+      </button>
     </div>
-    <a href="">
-    <button type="button" class="top-button">TOP</button></a>
-  </body>
+  </form>
+  <div class="gallery">
+  </div>
+  <button type="button" class="top-button" title="To top">
+    <svg class="top-button__icon">
+      <use href="./images/chevron.svg#icon-chevron-up"></use>
+    </svg>
+  </button>
+</body>
+
 </html>
