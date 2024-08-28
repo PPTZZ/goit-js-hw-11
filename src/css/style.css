@@ -125,3 +125,15 @@ a{
     color: var(--color-secondary);
     font-size: 14px;
 }
+
+.top-button{
+    position: fixed;
+    bottom: 1rem;
+    right: 1rem;
+    transform: translateX(200%);
+    transition: transform 0.5s ease-out, opacity 0.5s ease-out;
+}
+
+.top-button.visible{
+    transform: translateX(0);
+}
